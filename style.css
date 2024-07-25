@@ -1,0 +1,140 @@
+ul, *, body, html{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Montserrat', sans-serif;
+
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+body{
+background-color: white;
+}
+a{
+    text-decoration: none;
+}
+.primary-font{
+    color:rgb(0, 65, 0);
+}
+.primary-bg{
+    background-color: rgb(0, 65, 0);
+}
+.sm-font{
+    font-size: 14px;
+    color: white;
+}
+
+.sm-logo-img{
+    height: 22px;
+    width: 22px;
+}
+
+.med-logo-img{
+    height: 60px;
+    width: 60px;
+}
+.lt-margin{
+    margin-left: 8%;
+}
+.rt-margin{
+    margin-right: 8%;
+}
+.lt-margin-content{
+    margin-left: 14%;
+}
+.rt-margin-content{
+    margin-right: 14%;
+}
+.half-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.flex{
+    display: flex;
+}
+
+.flex-horizontal-center{
+    display: flex;
+    justify-content: center;
+}
+.flex-vertical-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.text-center{
+    text-align: center;
+}
+
+.white-text{
+    color: white;
+}
+
+.gen-para{
+    font-size: 18px;
+}
+
+@media screen and (max-width: 1600px) {
+    .lt-margin-content{
+        margin-left: 10%;
+    }
+    .rt-margin-content{
+        margin-right: 10%;
+    }
+    .med-logo-img{
+        height: 55px;
+        width: 55px;
+    }
+    .gen-para{
+        font-size: 16px;
+    }
+    
+}
+
+@media screen and (max-width:1250px) {
+    .sm-font{
+        font-size: 12.5px;
+    }
+    .lt-margin-content{
+        margin-left: 9%;
+    }
+    .rt-margin-content{
+        margin-right: 9%;
+    }
+    .med-logo-img{
+        height: 40px;
+        width: 45px;
+    }
+    .gen-para{
+        font-size: 15px;
+    }
+    
+}
+
+@media screen and (max-width:950px){
+    .sm-logo-img{
+        height: 15px;
+        width: 15px;
+    }
+}
+
+
+@media screen and (max-width:650px){
+    .lt-margin-content{
+        margin-left: 4%;
+    }
+    .rt-margin-content{
+        margin-right: 4%;
+    }
+    .gen-para{
+        font-size: 13px;
+    }
+    
+}
+
+@media screen and (max-width:600px) {
+    .sm-font{
+        font-size: 10px;
+    }
+
+}

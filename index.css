@@ -1,0 +1,273 @@
+#bg-img{
+    height: 720px;
+    animation: slideshow 10s infinite;
+}
+@keyframes slideshow{
+    0%{
+        background-image: url('img/bg-main.jpg');
+        color: white;
+    }
+    30%{
+        background-image: url('img/bg-2.jpg');
+        color: white;
+    }
+    70%{
+        background-image: url('img/bg-4.jpg');
+        color: white;
+    }
+    100%{
+        background-image: url('img/bg-main.jpg');
+        color: white;
+    }
+ }
+
+
+#title-full-1{
+    line-height: 90px;
+    font-size: 90px;
+    position: relative;
+    padding-top: 0px;
+
+    animation: 2s slide-right 0s forwards;
+      transform:translateX(-100%);
+}
+#title-full-2{
+    line-height: 70px;
+    font-size: 60px;
+    animation: 2s slide-right 0.4s forwards;
+      transform:translateX(-100%);
+}
+#title-full-3{
+    font-size: 60px;
+    line-height: 60px;
+    animation: 2s slide-right 0.7s forwards;
+      transform:translateX(-100%);
+    
+}
+.slide-right {
+    width: 100%;
+    overflow: hidden;
+  }
+    #intro-left {
+    animation: 2s slide-right 0s forwards;
+      transform:translateX(-100%);
+  }
+
+  #mission-right{
+    animation: 2s slide-right 0s forwards;
+      transform:translateX(100%);
+  }
+  @keyframes slide-right {
+    to {
+      transform:translateX(0);
+    }
+}
+#introduction, #mission{
+    margin-top: 20px;
+}
+
+#intro-title, #mission-title{
+    text-align: left;
+    font-size: 50px;
+    border-bottom: 5px solid rgb(0, 99, 0);
+}
+
+/* ALL SERVICES */
+/* ALL SERVICES */
+
+#all-services{  
+    margin-top: 100px;
+    border-top: 5px solid rgb(0, 99, 0);
+    /* position: relative; */
+    }
+
+
+.all-services-inner-box{
+    height: max-content;
+    margin: 10px 10px 10px 10px;
+    border: 2px solid black;
+    border-radius: 20px;
+    transition: all 0.7s;
+}
+
+
+.all-services-inner-content-box{
+    height: 300px;
+    margin: 35px 35px;
+    display: grid;
+    grid-template-columns: 3fr 7fr;
+}
+
+#all-services-title{
+    font-size: 40px;
+    font-weight: 550;
+}
+
+.all-services-inner-content-txt h2{
+    transition: all 0.7s;
+}
+
+.all-services-inner-box:hover{
+    
+    background-color: rgb(0, 99, 0);
+    color: white;
+}
+
+.all-services-inner-box:hover > .all-services-inner-content-box > .all-services-inner-content-txt > h2{
+    color: white;
+    
+}
+.all-services-inner-content-img{
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.all-services-inner-content-img > img{
+    height: 130px;
+    width: 100px;
+    transition: all 0.3s;
+}
+
+
+.all-services-inner-content-img:hover > img{
+    height: 140px;
+    width: 110px;
+}
+
+/* MIYAWAKI VIDEO  */
+/* MIYAWAKI VIDEO  */
+
+#miyawaki-video{
+    margin-top: 100px;
+    background-image: url(img/bg-secondary.jpg);
+    transition: all 0.5s;
+    height: 520px;
+    display: flex;
+    align-items: center;
+}
+#miyawaki-video h1{
+    font-size: 30px;
+    transition: all 0.5s;
+    color: white;
+}
+
+
+#miyawaki-video:hover > h1{
+    font-size: 50px;
+}
+
+
+@media screen and (max-width:1250px) {
+
+    .all-services-inner-content-box{
+        margin: 30px 15px;
+    }
+    .all-services-inner-content-img>img{
+        height: 110px;
+        width: 80px;
+    }
+
+    #all-services-title{
+        font-size: 35px;
+    }
+    #miyawaki-video{
+        height: 420px;
+    }
+}
+
+@media screen and (max-width:950px){
+    .all-services-inner-content-box{
+        grid-template-columns: 1fr;
+    }
+    .all-services-inner-content-img{
+        display: none;
+    }
+    #miyawaki-video{
+        height: 320px;
+        margin-top: 50px;
+    }
+    #title-full-1{
+        line-height: 70px;
+        font-size: 60px;
+    }
+    #title-full-2{
+        line-height: 50px;
+        font-size: 40px;
+    }
+    #title-full-3{
+        font-size: 40px;
+        line-height: 50px;
+    }
+}
+
+@media screen and (max-width:650px){
+    #bg-img{
+        height: 600px;
+    }
+    #all-services-title{
+        font-size: 25px;
+    }
+    #all-services-content{
+        display: block;
+    }
+    .all-services-inner-box{
+        border: none;
+    }
+    .all-services-inner-content-box{
+        margin: 20px 35px;
+        height: max-content;
+    }
+
+    #services-inner-box-1, #services-inner-box-3{
+        border-top: 2px solid black;
+        border-left: 2px solid black;
+        margin-bottom: 30px;
+    
+    }
+    
+    #services-inner-box-2, #services-inner-box-4{
+        border-bottom: 2px solid black;
+        border-right: 2px solid black;
+        margin-bottom: 30px;
+    }
+
+    #miyawaki-video{
+        height: 250px;
+    }
+    #miyawaki-video h1{
+        font-size: 25px;
+    }
+    #miyawaki-video:hover h1{
+        font-size: 40px;
+
+    }
+
+    #introduction, #mission{
+        display: block;
+        margin: 40px 50px;
+    }
+
+
+    #intro-title{
+        font-size: 34px;
+        text-align: left;
+    }
+    #mission-title{
+        font-size: 34px;
+        text-align: right;
+    }
+
+    #title-full-1{
+        line-height: 60px;
+        font-size: 55px;
+    }
+    #title-full-2{
+        line-height: 50px;
+        font-size: 40px;
+    }
+    #title-full-3{
+        font-size: 40px;
+        line-height: 40px;
+    }
+}
+
