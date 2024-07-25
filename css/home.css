@@ -4,19 +4,19 @@
 }
 @keyframes slideshow{
     0%{
-        background-image: url('img/bg-main.jpg');
+        background-image: url('/img/bg-main.jpg');
         color: white;
     }
     30%{
-        background-image: url('img/bg-2.jpg');
+        background-image: url('/img/bg-2.jpg');
         color: white;
     }
     70%{
-        background-image: url('img/bg-4.jpg');
+        background-image: url('/img/bg-4.jpg');
         color: white;
     }
     100%{
-        background-image: url('img/bg-main.jpg');
+        background-image: url('/img/bg-main.jpg');
         color: white;
     }
  }
@@ -139,7 +139,7 @@ justify-content: center;
 
 #miyawaki-video{
     margin-top: 100px;
-    background-image: url(img/bg-secondary.jpg);
+    background-image: url(/img/bg-secondary.jpg);
     transition: all 0.5s;
     height: 520px;
     display: flex;
