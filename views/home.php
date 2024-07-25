@@ -1,44 +1,49 @@
-    <div class="slide-right" id="bg-img">
+    <!-- Top Slideshow and Title -->
+    <div class="bg-img slide-right">
         <br><br><br><br>
         <div class="lt-margin-content" id="title-full-1">Tree Lover's </div>
         <div class="lt-margin-content" id="title-full-2"> Educational And Research </div>
         <div class="lt-margin-content" id="title-full-3"> Foundation</div>
     </div>
-    <div id="introduction" class="lt-margin-content rt-margin-content half-grid">
+    <!-- SlideShow And Title Ends  -->
 
-        <div id="intro-left" class="slide-right">
+    <div id="home-sector-2">
+        <div id="introduction" class="lt-margin-content rt-margin-content half-grid">
 
-            <h1 class="primary-font" id="intro-title">Introduction</h1>
-            <br>
-            <p id="intro-text" class="gen-para">Tree Lover's Educational And Research Foundation (TLEARF) also well know
-                as Tree Lover's Foundation is a registered NGO, located in Vadodara city of Gujarat State, India.
+            <div id="intro-left" class="slide-right">
 
-                The NGO is solely dedicated to environmental cause. Our crusadeis to reconstruct the ecosystem and
-                conserve the environment by engaging the people in Social forestry, a forestrythat is by the people and
-                for the people.</p>
+                <h1 class="primary-font" id="intro-title">Introduction</h1>
+                <br>
+                <p id="intro-text" class="gen-para">Tree Lover's Educational And Research Foundation (TLEARF) also well know
+                    as Tree Lover's Foundation is a registered NGO, located in Vadodara city of Gujarat State, India.
+
+                    The NGO is solely dedicated to environmental cause. Our crusadeis to reconstruct the ecosystem and
+                    conserve the environment by engaging the people in Social forestry, a forestrythat is by the people and
+                    for the people.</p>
+            </div>
+
+            <div id="intro-right"></div>
         </div>
 
-        <div id="intro-right"></div>
-    </div>
 
+        <div id="mission" class="lt-margin-content rt-margin-content half-grid">
 
+            <div id="mission-left"></div>
 
-    <div id="mission" class="lt-margin-content rt-margin-content half-grid">
-
-        <div id="mission-left"></div>
-
-        <div id="mission-right">
-            <h1 class="primary-font" id="mission-title">Mission</h1>
-            <br>
-            <p id="mission-text" class="gen-para">To enhance the green prosperity of our nation through social forestry.
-                <br><br>
-                The <b> Tree After Care Team </b> (TACT) which is an integral part of Tree Lover's Foundation,
-                consisting of all well educated people with wide range of professional background have been working on
-                <b>every Sunday Morning </b>from 7 am to 8.30 am since last 15 years for watering the trees planted by
-                them and performing after care activities.
-            </p>
+            <div id="mission-right">
+                <h1 class="primary-font" id="mission-title">Mission</h1>
+                <br>
+                <p id="mission-text" class="gen-para">To enhance the green prosperity of our nation through social forestry.
+                    <br><br>
+                    The <b> Tree After Care Team </b> (TACT) which is an integral part of Tree Lover's Foundation,
+                    consisting of all well educated people with wide range of professional background have been working on
+                    <b>every Sunday Morning </b>from 7 am to 8.30 am since last 15 years for watering the trees planted by
+                    them and performing after care activities.
+                </p>
+            </div>
         </div>
     </div>
+
 
     <div id="miyawaki-video" class="flex-horizontal-center">
         <h1>Miyawaki Video</h1>

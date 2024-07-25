@@ -1,5 +1,4 @@
-#bg-img{
-    height: 720px;
+.bg-img{
     animation: slideshow 10s infinite;
 }
 @keyframes slideshow{
@@ -44,13 +43,10 @@
       transform:translateX(-100%);
     
 }
-.slide-right {
-    width: 100%;
-    overflow: hidden;
-  }
-    #intro-left {
+
+#intro-left {
     animation: 2s slide-right 0s forwards;
-      transform:translateX(-100%);
+    transform:translateX(-100%);
   }
 
   #mission-right{
@@ -201,7 +197,7 @@ justify-content: center;
 }
 
 @media screen and (max-width:650px){
-    #bg-img{
+    .bg-img{
         height: 600px;
     }
     #all-services-title{
